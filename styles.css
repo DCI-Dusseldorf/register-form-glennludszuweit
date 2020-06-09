@@ -95,3 +95,22 @@ option {
   border: 2px solid #eeb77f;
   margin: 10px;
 }
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+}
+
+.button-container .book-button {
+  padding: 25px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  background-color: #eeb77f;
+  margin: 5px 0;
+}
+
+.button-container small {
+  color: #eeb77f;
+}
